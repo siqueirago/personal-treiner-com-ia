@@ -1,73 +1,131 @@
-# Welcome to your Lovable project
+# 🏋️‍♂️ Personal Trainer IA — Gerador de Treinos Inteligente
 
-## Project info
+Um **aplicativo moderno de fitness** que utiliza **Inteligência Artificial** para gerar **planos de treino personalizados**, inspirado em grandes referências do mercado como **Nike Training Club** e **Freeletics**.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Este projeto foi desenvolvido a partir do desafio da **Digital Innovation One (DIO)** e evoluído para entregar uma experiência visual impactante, fluida e orientada ao usuário.
 
-## How can I edit this code?
+🔗 **Demo online:**  
+👉 https://prompt-buddy-ai-26.lovable.app
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Visão do Projeto
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+O **Personal Trainer IA** guia o usuário por um fluxo simples e intuitivo para criar um plano de treino sob medida, considerando:
 
-Changes made via Lovable will be committed automatically to this repo.
+- Biotipo corporal
+- Disponibilidade semanal
+- Preferências de exercícios
 
-**Use your preferred IDE**
+Tudo isso envolto em uma **interface premium**, com estética sombria, animações suaves e foco total em usabilidade.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🧠 Como a IA Personaliza o Treino
 
-Follow these steps:
+O plano de treino é gerado com base em três pilares principais:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 1️⃣ Tipo Físico
+- **Ectomorfo**
+- **Mesomorfo**
+- **Endomorfo**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Cada biotipo recebe **dicas e estratégias específicas** de treino.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 2️⃣ Frequência Semanal
+- **1 dia/semana** → Full Body  
+- **3 dias/semana** → ABC  
+- **5 dias/semana** → ABCDE  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 3️⃣ Preferências de Exercícios
+Seleção múltipla entre:
+- Funcional
+- Maquinário
+- Pesos Livres
+- Cardio
+- HIIT
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ✨ Funcionalidades Implementadas
 
-**Use GitHub Codespaces**
+✔ Hero page dramática com imagem de fundo e animações  
+✔ Seleção interativa de biotipo com **cards animados**  
+✔ Escolha da frequência semanal com lógica de treino aplicada  
+✔ Seleção múltipla de tipos de exercícios  
+✔ Geração automática de **plano de treino personalizado**  
+✔ Dicas específicas baseadas no biotipo escolhido  
+✔ Animações suaves utilizando **Framer Motion**  
+✔ Design system consistente com **tema escuro e acentos em laranja/âmbar**  
+✔ Interface baseada em cartões com efeito moderno (glass / depth)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🎨 Design & Experiência
 
-This project is built with:
+- Estilo **dark fitness premium**
+- Cores de destaque em **laranja e âmbar** (energia e performance)
+- Tipografia marcante
+- Layout baseado em cards
+- Fluxo guiado em **3 etapas**
+- Experiência fluida, responsiva e imersiva
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🖼️ Imagem Conceitual
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+> Academia em tons escuros, iluminação dramática em laranja e âmbar, silhueta de atleta treinando com pesos.  
+> Estilo de fotografia esportiva profissional, proporção 16:9, alta resolução.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
+## 🛠️ Tecnologias Utilizadas
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- HTML5
+- CSS3 (Design System customizado)
+- JavaScript
+- Framer Motion (animações)
+- IA baseada em prompts (inspirado no projeto DIO)
+- Deploy via Lovable App
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+
+## 📂 Projeto Base
+
+Este projeto foi inspirado no repositório oficial da DIO:
+
+🔗 https://github.com/digitalinnovationone/prompt-challenger-personal-ia
+
+A partir dele, o app foi expandido com:
+- Novo design
+- Novo fluxo de UX
+- Interface visual avançada
+- Melhor organização e experiência final
+
+---
+
+## 🎯 Objetivo
+
+Demonstrar como **IA + Design + Experiência do Usuário** podem criar soluções reais, modernas e escaláveis para o setor de **fitness digital**, indo além de um simples gerador de texto.
+
+---
+
+## 📌 Status do Projeto
+
+✅ Concluído  
+🚀 Pronto para evolução futura (integração com APIs, login, histórico de treinos, métricas, etc.)
+
+---
+
+## 💡 Próximos Passos (Visão Futura)
+
+- Autenticação de usuários
+- Histórico de treinos
+- Integração com APIs de saúde
+- Exportação de treinos (PDF / Mobile)
+- Dashboard de evolução física
+
+---
+
+Desenvolvido com foco em **performance, estética e inteligência**.  
+💪 Seu treino. Seu corpo. Sua IA.
