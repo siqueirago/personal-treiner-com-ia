@@ -5,7 +5,7 @@ Um **aplicativo moderno de fitness** que utiliza **Inteligência Artificial** pa
 Este projeto foi desenvolvido a partir do desafio da **Digital Innovation One (DIO)** e evoluído para entregar uma experiência visual impactante, fluida e orientada ao usuário.
 
 🔗 **Demo online:**  
-👉 https://prompt-buddy-ai-26.lovable.app
+👉 [https://prompt-buddy-ai-26.lovable.app](https://personal-treiner.lovable.app)
 
 ---
 
